@@ -48,6 +48,8 @@ Projeto consiste em uma API para front-end em desenvolvimento ( projeto petshop)
       - INSERT INTO tb_agendamento(department_id, cliente, pet, data, horario) VALUES ();
       - INSERT INTO tb_atendente(department_id, name, matricula) VALUES ();
       - INSERT INTO tb_cliente(department_id, cliente, email, contato) VALUES ();
+      
+ ![Postmain](https://user-images.githubusercontent.com/81030386/216981091-1e33699f-b326-4526-9929-1e4e441b1dd8.jpeg)
 
 ##
  <b> :heavy_check_mark: Criar Objetos para acessar os dados do banco de dados e  criar Endpoints da API REST:</br>
@@ -74,7 +76,10 @@ Projeto consiste em uma API para front-end em desenvolvimento ( projeto petshop)
    
  ##
  <b>:heavy_check_mark: Documentado e testado API no Postman</br>
-  
+ 
+![Postmain](https://user-images.githubusercontent.com/81030386/216981293-a0b05a49-40a6-48cd-87e7-5accff746013.jpeg)
+
+
 ## Implementação futura
 - Documentar no Swagger. 
 - Deploy.
