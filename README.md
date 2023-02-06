@@ -42,7 +42,7 @@ Projeto consiste em uma API para front-end em desenvolvimento ( projeto petshop)
  <b>:heavy_check_mark: Configurar o banco de dados H2 em memoria:</br>
  * <b>http:localhost:80880/h2-console</br>
 
- * <b>:open_file_folder:Inserido dados através do SQL:</br>
+ * <b>Inserido dados através do SQL:</br>
        <b>Criado arquivo importsql</br>
       - INSERT INTO tb_department(name) VALUES (''); 
       - INSERT INTO tb_agendamento(department_id, cliente, pet, data, horario) VALUES ();
