@@ -21,7 +21,7 @@ Projeto consiste em uma API para front-end em desenvolvimento ( projeto petshop)
 
   
 ## :wrench: Processos:
- <b>Implementação de modelo de dominio</br>
+ <b> :heavy_check_mark: Implementação de modelo de dominio</br>
  * <b>Department:</br>
 	 *Agendamento;
 	 *Atendentes;
@@ -31,9 +31,50 @@ Projeto consiste em uma API para front-end em desenvolvimento ( projeto petshop)
 	 *Agendamento;
 	 *Atendentes;
 	 *Clientes;
-	 *Produtos;
+         *Produtos;
+##
+ <b>:heavy_check_mark:Mapeamento Objeto Relacional (ORM):</br>
+ * <b>Adiconado uma annotation JPA:</br>
+      - Entity. 
+      - Table(tb_department).
+
+##
+ <b>:heavy_check_mark: Configurar o banco de dados H2 em memoria:</br>
+ * <b>http:localhost:80880/h2-console</br>
+
+ * <b>:open_file_folder:Inserido dados através do SQL:</br>
+       <b>Criado arquivo importsql</br>
+      - INSERT INTO tb_department(name) VALUES (''); 
+      - INSERT INTO tb_agendamento(department_id, cliente, pet, data, horario) VALUES ();
+      - INSERT INTO tb_atendente(department_id, name, matricula) VALUES ();
+      - INSERT INTO tb_cliente(department_id, cliente, email, contato) VALUES ();
+
+##
+ <b> :heavy_check_mark: Criar Objetos para acessar os dados do banco de dados e  criar Endpoints da API REST:</br>
+ * <b>Funcionalidade para acessar e alterar o banco de dados através:</br>
+ * <b>Objetos repository Spring data jpa.</br>
+
+         - AgendamentosRepository
+         - AtendentesRepository
+         - ClientesRepository
+         - ProdutosRepository
 
 
+* <b>Gerando Endpoints</br>
+  Utiliado annotation @RestController para responder por requisiões e @RequestMapping (value="/api) "para declarar o caminho:
+
+         - AgendamentosController
+         - AtendentesController
+         - ClientesController
+         - ProdutosController
+ ex: :mag: http:localhost:80880/agendametos
+   
+   Implementado o endpoint com:
+   GetMapping("/agendamento") - retornando um json.
+   
+ ##
+ <b>:heavy_check_mark: Documentado e testado API no Postman</br>
+  
 ## Implementação futura
 - Documentar no Swagger. 
 - Deploy.
