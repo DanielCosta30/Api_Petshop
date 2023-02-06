@@ -20,10 +20,18 @@ Projeto consiste em uma API para front-end em desenvolvimento ( projeto petshop)
 * <b>Postman</b>
 
   
-## :wrench: Processos
-* JavaScript;
-* Api (Heroku);
-
+## :wrench: Processos:
+ <b>Implementação de modelo de dominio</br>
+ * <b>Department:</br>
+	 *Agendamento;
+	 *Atendentes;
+	 *Clientes;
+	 *Produtos;
+ * <b>Class:</br>
+	 *Agendamento;
+	 *Atendentes;
+	 *Clientes;
+	 *Produtos;
 
 
 ## Implementação futura
