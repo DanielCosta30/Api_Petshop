@@ -74,6 +74,9 @@ Projeto consiste em uma API para front-end em desenvolvimento ( projeto petshop)
    Implementado o endpoint com:
    GetMapping("/agendamento") - retornando um json.
    
+ ![Postmain](https://user-images.githubusercontent.com/81030386/216981220-f6a67192-7f54-427e-9933-54664785371a.jpeg)
+ 
+ 
  ##
  <b>:heavy_check_mark: Documentado e testado API no Postman</br>
  
@@ -84,7 +87,6 @@ Projeto consiste em uma API para front-end em desenvolvimento ( projeto petshop)
 - Documentar no Swagger. 
 - Deploy.
 
-  
 
 ##  Colaboradores
 <table>
